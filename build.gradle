@@ -75,7 +75,7 @@ dependencies {
 }
 
 javadoc {
-    failOnError = false
+    failOnError = true
     exclude "**/internal/**"
     exclude "**/test/**"
     exclude "**/perf/**"
